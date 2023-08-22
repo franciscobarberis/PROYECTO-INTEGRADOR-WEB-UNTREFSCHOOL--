@@ -1,0 +1,104 @@
+.listanav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    background-color: #1F8A70;
+    margin: 0%;
+    font-family: 'Belanosima', sans-serif;
+}
+.titulo{
+    margin: 0%;
+    text-align: center;
+    padding-block: 15rem;
+    font-size: 3rem;
+    background-image: url(https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Belanosima', sans-serif;
+}
+.itema:hover{
+    color: #FC7300; 
+    background-color: #EFF5F5;
+}
+img{
+    width: 25% ; 
+    height: 25% ;
+}
+.contactosnav{
+    display: flex;
+    gap: 20rem;
+    justify-content: left;
+    align-items: baseline;
+    list-style-type: none;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    margin: 0%;
+    flex-direction: row;
+}
+.grid{
+    width: 500px;
+    height: 100px;
+  
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 300px;
+}
+.edit{
+    width: 100%;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px;
+}
+.mya{
+    height: 100%;
+    width: 100%;
+}
+.layout {
+    width: 100%; 
+    display: flex;
+    gap: 16px;
+    font-size: 0,5re;
+    font-family: 'Belanosima', sans-serif;
+  }
+  .marginLeft { 
+    margin-left: auto; 
+}
+  .imgproducts {
+    display: flex;
+    height: 100%;
+    gap: 16px;
+    justify-content: center;
+    padding-top: 1%;
+    width: 75%;
+    margin: auto;
+    padding: 0 16px;
+  }
+  .imagenp {
+    width: 100%;
+    padding: 30px 16px 22px;
+  }
+  .pproducto {
+    font-size: 20px;
+    display: flex;
+    justify-content: baseline;
+    padding-top: 18px;
+    font-family: 'Belanosima', sans-serif;
+  }
+  .imagenproducto{
+width: 60%;
+height: 60%;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .listanav 
+    .titulo
+    .imgproducts {
+      background-color: #EFF5F5;
+    }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap') 
